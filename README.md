@@ -1,4 +1,4 @@
- Trybe
+#Trybe
 ​
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Ronan Salvador](https://www.linkedin.com/in/ronansalvador/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 ​
