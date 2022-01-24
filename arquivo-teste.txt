@@ -1,1 +1,3 @@
 Teste de arquivo novo na branch Ronan
+
+Utilizando o comando git push -u origin ronan
