@@ -34,8 +34,14 @@ div:hover {
     background-color: yellow
 } */
 
-div h3:nth-child(odd){
+/* div h3:nth-child(odd){
     color: yellow;
-}
+} */
+
+div:nth-child(odd) h3 {
+    font-style: italic;
+    color: yellow;
+    
+  }
 
 

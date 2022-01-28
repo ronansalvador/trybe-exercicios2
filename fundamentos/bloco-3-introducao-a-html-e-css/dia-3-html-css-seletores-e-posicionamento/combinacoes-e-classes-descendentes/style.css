@@ -1,0 +1,26 @@
+ol{
+    background-color: yellow;
+}
+
+ol li:nth-child(even){
+    color: green;
+}
+
+ol li:nth-child(odd){
+    text-transform: uppercase;
+}
+
+.titulo{
+    color: red;
+}.titulo em {
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li{
+    font-size: 20px;
+}
+
+li em {
+    font-weight: bold;
+}
