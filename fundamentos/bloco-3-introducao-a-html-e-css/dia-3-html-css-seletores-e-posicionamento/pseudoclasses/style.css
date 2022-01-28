@@ -1,0 +1,34 @@
+div:hover {
+    border: 5px solid black;
+}
+
+#cor-primaria{
+    background-color: red;
+}
+
+#cor-secundaria{
+    background-color: green;
+}
+
+#cor-complementar{
+    background-color: #E36920;
+
+}
+
+#cor-escura{
+    background-color: #080E99;
+
+}
+
+#cor-clara{
+    background-color: #9BEBA3;
+
+}
+
+.div-maior{
+    height: 100px;
+}
+
+h3{
+    font-style: italic;
+}
