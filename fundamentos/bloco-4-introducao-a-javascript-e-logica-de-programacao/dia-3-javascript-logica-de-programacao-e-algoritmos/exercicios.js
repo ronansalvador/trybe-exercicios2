@@ -44,3 +44,7 @@ for (let index = 0; index < array.length; index += 1) {
 }
 
 console.log("a maior palavra é " + texto + " com " + maiorpalavra + " caracteres");
+
+
+
+// numeros primos
