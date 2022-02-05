@@ -43,4 +43,31 @@ for (let index = 0; index < array.length; index += 1) {
 
 }
 
+<<<<<<< HEAD
 console.log("a maior palavra é " + texto + " com " + maiorpalavra + " caracteres");
+
+
+// numero primo ate 50...
+
+let numero = 50;
+let div = 0;
+let numPrimo = [];
+
+for (let index = 1; index <= numero; index += 1) {
+    div = 0;
+    for (let index2 = 1; index2 <= index; index2 += 1) {
+        if (index % index2 == 0) {
+            div += 1;
+        }
+    }
+    if (div == 2) {
+        numPrimo.push(index)
+    }
+}
+
+console.log("Numeros primos entre 1 - 50: " + numPrimo);
+console.log("O maior numero primo do intervalo de 1 a 50 é: " +
+    numPrimo[numPrimo.length - 1]);
+=======
+console.log("a maior palavra é " + texto + " com " + maiorpalavra + " caracteres");
+>>>>>>> main
