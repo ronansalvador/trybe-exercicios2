@@ -65,5 +65,5 @@ for (let index = 1; index <= numero; index += 1) {
 }
 
 console.log("Numeros primos entre 1 - 50: " + numPrimo);
-console.log("O maior numero primo do intervalo é: " +
+console.log("O maior numero primo do intervalo de 1 a 50 é: " +
     numPrimo[numPrimo.length - 1]);
