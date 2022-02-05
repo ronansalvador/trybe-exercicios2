@@ -44,18 +44,3 @@ for (let index = 0; index < array.length; index += 1) {
 }
 
 console.log("a maior palavra é " + texto + " com " + maiorpalavra + " caracteres");
-
-
-<<<<<<< HEAD
-
-// numeros primos
-=======
-// numero primo ate 50...
-
-/* let primo = 50;
-for (var i = 0; i <= primo; i++) {
-    if ((primo % 1 === 0) && (primo % primo === 0)) {
-        console.log(i);
-    }
-} */
->>>>>>> 565330ab3aae2fd6036cda6f67738710f1f400eb
