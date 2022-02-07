@@ -23,7 +23,7 @@ for (let index = 0; index < pizzas.length; index++) {
     console.log(pizzas[index]);
 }
 
-let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
+/* let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
 let menuServices = menu[1];
 
 console.log(menuServices);
@@ -34,4 +34,4 @@ console.log(indexOfPortfolio);
 
 menu.push('Contato')
 
-console.log(menu);
+console.log(menu); */
