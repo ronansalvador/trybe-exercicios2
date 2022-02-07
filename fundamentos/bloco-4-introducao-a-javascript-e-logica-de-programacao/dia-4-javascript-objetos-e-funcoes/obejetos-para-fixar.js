@@ -18,5 +18,5 @@ console.log(jogadora['bestInTheWorld']);
 console.table(jogadora)
 
 
-
-console.log('A jogadora ' + jogadora.name + ' foi eleita a melhor do mundo por ' + jogadora['bestInTheWorld'.lenght]);
+console.log();
+console.log('A jogadora ' + jogadora.name + ' foi eleita a melhor do mundo por ' + jogadora.bestInTheWorld.length + " vezes");
