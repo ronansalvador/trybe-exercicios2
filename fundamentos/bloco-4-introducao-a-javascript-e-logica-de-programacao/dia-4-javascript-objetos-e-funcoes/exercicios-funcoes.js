@@ -66,3 +66,99 @@ function maiorPalavra(palavras) {
 }
 
 console.log(maiorPalavra(arrayNomes));
+
+// Exericio 5
+
+//Duas formas de resolver o exercício
+function maisRepetido(numeros) {
+    let contRepetido = 0;
+    let contNumero = 0;
+    let indexNumeroRepetido = 0;
+    for (let index in numeros) {
+        let verificaNumero = numeros[index];
+        for (let index2 in numeros) {
+            if (verificaNumero === numeros[index2]) {
+                contNumero += 1;
+            }
+        }
+        if (contNumero > contRepetido) {
+            contRepetido = contNumero;
+            indexNumeroRepetido = index;
+        }
+        contNumero = 0;
+    }
+    return numeros[indexNumeroRepetido];
+}
+
+//   function maisRepetido(numeros) {
+//     let num = {};
+
+//     for (let index = 0; index < numeros.length; index += 1) {
+//       let valor = numeros[index];
+//       if (num[valor] === undefined) {
+//         num[valor] = 1;
+//       } else {
+//         num[valor] = num[valor] + 1;
+//       }
+//     }
+
+//     let contRepetido = 0;
+//     let contNumero = 0;
+
+//     for (let prop in num) {
+//       if (contRepetido < num[prop]) {
+//         contRepetido = num[prop];
+//         contNumero = prop;
+//       }
+//     }
+
+//     return contNumero;
+//   }
+
+console.log(maisRepetido([2, 3, 2, 5, 8, 2, 3]));
+
+// exericio 6
+
+function somaTodosNumeros(numeros) {
+    let total = 0;
+    for (let index = 1; index <= numeros; index += 1) {
+        total = total + index;
+    }
+    return total;
+}
+console.log(somaTodosNumeros(5)); //15
+
+// exercicio 7
+
+//Duas formas de resolver o exercício
+function verificaFimPalavra(palavra, fimPalavra) {
+    palavra = palavra.split('');
+    fimPalavra = fimPalavra.split('');
+    controle = true;
+    for (let index = 0; index < fimPalavra.length; index += 1) {
+        if (palavra[palavra.length - fimPalavra.length + index] != fimPalavra[index]) {
+            controle = false;
+        }
+    }
+    return controle;
+}
+
+//   function verificaFimPalavra(palavra, fimPalavra) {
+//     let inversoPalavra = palavra.split('').reverse().join('');
+//     let inversoFimPalavra = fimPalavra.split('').reverse().join('');
+//     let result;
+
+//     for (let index = 0; index < inversoFimPalavra.length; index += 1) {
+//       if (inversoPalavra[index] !== inversoFimPalavra[index]) {
+//         result = false;
+//         break;
+//       } else {
+//         result = true;
+//       }
+//     }
+
+//     return result;
+//   }
+
+console.log(verificaFimPalavra('trybe', 'be')); //true
+console.log(verificaFimPalavra('joaofernando', 'fernan')); //false

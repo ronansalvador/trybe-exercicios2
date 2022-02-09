@@ -10,7 +10,7 @@ let pizzas = ['4 queijos', 'Frango com Catupiry', 'Marguerita', 'Palmito', 'Choc
 // let ultimoItem = pizzas[pizzas.length - 1]; // ultimo item do array
 // console.log(ultimoItem);
 
-//console.log(pizzas.sort()); // .sort() -> retonra array em ordem crescente ou a-z
+console.log(pizzas.sort()); // .sort() -> retonra array em ordem crescente ou a-z
 
 //console.log(pizzas[0]); // primeiro item do array
 
