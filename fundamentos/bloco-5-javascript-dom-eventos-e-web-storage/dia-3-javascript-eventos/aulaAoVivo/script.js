@@ -21,7 +21,7 @@ car2.style.marginleft = '0';
 
 console.log((btnCar));
 
-btnCar.addEventListener("cliack", function(){
+btnCar.addEventListener("click", function(){
   let inputValue = document.querySelector('#inputValue');
   console.log(inputValue).value;
   car1.style.marginleft = Math.random()*100 + 'px'

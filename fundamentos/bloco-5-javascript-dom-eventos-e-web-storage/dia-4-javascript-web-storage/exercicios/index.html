@@ -7,7 +7,7 @@
   
   <title>Leitor</title>
 </head>
-<body>
+<body id="fundo">
   <section>
   <h1 id="titulo">Titulo do Artigo ou Pagina</h1>
   <p class="paragrafo">
@@ -21,10 +21,18 @@
   </p>
 </section>
 <section>
-  Backgroundcolor: <input type="color"><br>
-  fontcolor: <input type="color"><br>
-  FontSize: <input type="number"><br>
-  FontSpacing: <input type="number">
+  Backgroundcolor: <input type="color" id="backgroudColor"><br>
+  fontcolor: <input type="color" id="fontColor"><br>
+  FontSize: <input type="number" id="fontSize"><br>
+  FontSpacing: <input type="number" id="fontSpacing" >
+  
+  <section id="font-family" class="options">
+    <span>Tipo da fonte</span>
+    <button>Arial</button>
+    <button>Times New Roman</button>
+  </section>
+
+
 </section>
   <script src="script.js"></script>
 </body>
