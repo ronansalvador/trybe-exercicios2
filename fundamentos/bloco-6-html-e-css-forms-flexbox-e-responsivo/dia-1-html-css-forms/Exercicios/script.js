@@ -49,8 +49,7 @@ function textInputValidation() {
 
   if (invalidEmail || invalidName || invalidReason) {
     return false;
-    console.log(false);
-  }
+
   else {
     return true;
   }
