@@ -44,13 +44,16 @@ function textInputValidation() {
   const name = document.querySelector('#fullName').value.length;
   const invalidName = name < 10 || name > 40;
 
-  const reason = document.querySelector('#why').value.length;
+  const reason = document.querySelector('#resposta').value.length;
   const invalidReason = reason > 500;
 
   if (invalidEmail || invalidName || invalidReason) {
+    console.log(false);
     return false;
-
+    
+  }
   else {
+    console.log(true);
     return true;
   }
 }
