@@ -14,3 +14,5 @@ const newEmployees = (callback) => {
 };
 
 console.log(newEmployees(employeeGenerator));
+
+//teste de commit bloco 8
