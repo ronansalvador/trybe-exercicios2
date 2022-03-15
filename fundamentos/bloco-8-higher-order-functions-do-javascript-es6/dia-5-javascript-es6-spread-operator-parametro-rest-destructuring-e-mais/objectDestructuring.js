@@ -7,7 +7,10 @@ const product = {
 /* const { name } = product;
 console.log(name); // Smart TV Crystal UHD */
 
-const { name, seller } = product;
+const {
+  name,
+  seller
+} = product;
 console.log(name); // Smart TV Crystal UHD
 console.log(seller); // Casas de Minas
 
@@ -26,7 +29,16 @@ const character = {
 };
 
 // desestruturando o objeto:
-const { name, age, homeWorld: { name: planetName }, description: { jedi } } = character;
+const {
+  name,
+  age,
+  homeWorld: {
+    name: planetName
+  },
+  description: {
+    jedi
+  }
+} = character;
 
 // imprimindo os valores:
 console.log(`Esse é o ${name}, ele tem ${age} anos, mora no planeta ${planetName} e, por incrível que possa parecer, ele ${jedi ? 'é um Jedi' : 'não é um Jedi'}.`);
@@ -38,7 +50,10 @@ const daysOfWeek = {
   weekend: ['Saturday', 'Sunday'],
 };
 
-const { workDays, weekend } = daysOfWeek;
+const {
+  workDays,
+  weekend
+} = daysOfWeek;
 console.log(workDays); // ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
 console.log(weekend); // ['Saturday', 'Sunday']
 
@@ -51,7 +66,11 @@ const student = {
   c: 'Matematica',
 };
 
-const { a: name, b: classAssigned, c: subject } = student;
+const {
+  a: name,
+  b: classAssigned,
+  c: subject
+} = student;
 
 console.log(name); // Maria
 console.log(classAssigned); // Turma B
@@ -64,7 +83,11 @@ const product = {
   seller: 'Casas de Minas',
 };
 
-const printProductDetails = ({ name, price, seller }) => {
+const printProductDetails = ({
+  name,
+  price,
+  seller
+}) => {
   console.log(`Promoção! ${name} por apenas ${price} é só aqui: ${seller}`);
 };
 
@@ -86,11 +109,21 @@ const jobInfos = {
   squadInitials: 'RLL',
 };
 
-const funcionario = {...user, ... jobInfos}
+const funcionario = {
+  ...user,
+  ...jobInfos
+}
 
 console.log(funcionario);
 
-const fraseFinal = ({name, age, nationality, profession, squad, squadInitials}) => {
+const fraseFinal = ({
+  name,
+  age,
+  nationality,
+  profession,
+  squad,
+  squadInitials
+}) => {
   console.log(`Hi, my name is ${name}, I.m ${age} years old and I'm ${nationality}. I work as a ${profession} and my squad is ${squadInitials}-${squad}`);
 }
 
