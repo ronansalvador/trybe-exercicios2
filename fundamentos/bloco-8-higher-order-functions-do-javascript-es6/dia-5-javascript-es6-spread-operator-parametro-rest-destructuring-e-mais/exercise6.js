@@ -12,3 +12,6 @@ const toObject = ([carro, marca, ano]) => ({carro, marca, ano});
 console.log(toObject(palio));
 console.log(toObject(shelbyCobra));
 console.log(toObject(chiron));
+
+// console.log(palio);
+
