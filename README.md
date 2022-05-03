@@ -61,49 +61,49 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ​
 - [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [x] 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_
-- [ ] 7-3: _Primeiros passos em Jest_
-- [ ] 7-4: _[Projeto - JavaScript Testes Unitários]()_
+- [x] 7-3: _Primeiros passos em Jest_
+- [x] 7-4: _[Projeto - JavaScript Testes Unitários]()_
 ​
 ##### Bloco 8: Higher Order Functions do JavaScript ES6
 ​
-- [ ] 8-1: _JavaScript ES6 - Introdução a Higher Order Functions
-- [ ] 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
-- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
-- [ ] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
-- [ ] 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [ ] 8-6: _[Projeto - Zoo functions]()_
+- [x] 8-1: _JavaScript ES6 - Introdução a Higher Order Functions
+- [x] 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+- [x] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
+- [x] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
+- [x] 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
+- [x] 8-6: _[Projeto - Zoo functions]()_
 ​
 ##### Bloco 9: Assincronicidade & Callbacks
 ​
-- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
-- [ ] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
-- [ ] 9-3: _Jest - Testes Assíncronos_
-- [ ] 9-4: _[Projeto - Carrinho de Compras]()_
+- [x] 9-1: _JavaScript Assíncrono e Callbacks_
+- [x] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
+- [x] 9-3: _Jest - Testes Assíncronos_
+- [x] 9-4: _[Projeto - Carrinho de Compras]()_
 ​
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 ​
 ##### Bloco 10: Introdução - React
 ​
-- [ ] 10-1: _'Hello, world!' no React!_
-- [ ] 10-2: _Componentes React_
-- [ ] 10-3: _[Projeto - Movie Sistema Solar]()_
+- [x] 10-1: _'Hello, world!' no React!_
+- [x] 10-2: _Componentes React_
+- [x] 10-3: _[Projeto - Movie Sistema Solar]()_
 ​
 ##### Bloco 11: Componentes com Estado, Eventos & Formulários com React
 ​
-- [ ] 11-1: _Componentes com estado e eventos_
-- [ ] 11-2: _Formulários no React_
-- [ ] 11-3: _[Projeto - Tryunfo]()_
+- [x] 11-1: _Componentes com estado e eventos_
+- [x] 11-2: _Formulários no React_
+- [x] 11-3: _[Projeto - Tryunfo]()_
 ​
 ##### Bloco 12: Ciclo de Vida de Componentes & React Router
 ​
-- [ ] 12-1: _Ciclo de vida de componentes_
-- [ ] 12-2: _React Router_
-- [ ] 12-3: _[Projeto - TrybeTunes]()_
+- [x] 12-1: _Ciclo de vida de componentes_
+- [x] 12-2: _React Router_
+- [x] 12-3: _[Projeto - TrybeTunes]()_
 ​
 ##### Bloco 13: Metodologias Ágeis
 ​
-- [ ] 13-1: _Metodologias Ágeis_
-- [ ] 13-2: _[Projeto - Frontend Online Store]()_
+- [x] 13-1: _Metodologias Ágeis_
+- [x] 13-2: _[Projeto - Frontend Online Store]()_
 ​
 ##### Bloco 14: Testes automatizados com React Testing Library
 ​
